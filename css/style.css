@@ -33,7 +33,6 @@ kbd {
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   color: #1F78FF;
-  background: #FFF61F;
 }
 
 /* Use CSS Grid to display keys */
@@ -60,6 +59,7 @@ kbd {
   width: 10rem;
   text-align: center;
   outline: 1px solid black;
+  background: #FFF61F;
   
   /* Change mouse pointer */
   cursor:pointer;
