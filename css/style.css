@@ -1,3 +1,5 @@
+@import url(cabinet-grotesk.css);
+
 /* Set Fonts and Resets */
 body,
 html {
@@ -9,6 +11,7 @@ html {
 
 /* With Flexbox, Horizontally and vertically cneter */
 body {
+  color: #FFF61F;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -27,9 +30,10 @@ kbd {
 
 /* Name of Sound */
 .sound {
+  font-family: 'CabinetGrotesk-Bold';
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
-  color: #e2e2e2;
+  color: #1F78FF;
 }
 
 /* Use CSS Grid to display keys */
@@ -46,9 +50,11 @@ kbd {
 /* Visual Keys / Squares */
 .key {
   /* Typography */
+  font-family: 'CabinetGrotesk-Light';
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
+  color: #FF1F1F
 
   /* Styling of keys */
   width: 10rem;
